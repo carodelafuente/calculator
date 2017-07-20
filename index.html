@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <script defer type="text/javascript" src="tryagain.js"></script>
+  <title></title>
+</head>
+
+<body>
+  <h2> Calculator </h2>
+  <div class="wrapper">
+    <span class='result'></span>
+    <button class="gridItem clear">clear</button>
+
+    <button onclick="numberFunc(this.innerText)" class="gridItem one">1</button>
+    <button onclick="numberFunc(this.innerText)" class="gridItem two">2</button>
+    <button onclick="numberFunc(this.innerText)" class="gridItem three">3</button>
+    <button onclick="numberFunc(this.innerText)" class="gridItem four">4</button>
+    <button onclick="numberFunc(this.innerText)" class="gridItem five">5</button>
+    <button onclick="numberFunc(this.innerText)" class="gridItem six">6</button>
+    <button onclick="numberFunc(this.innerText)" class="gridItem seven">7</button>
+    <button onclick="numberFunc(this.innerText)" class="gridItem eight">8</button>
+    <button onclick="numberFunc(this.innerText)" class="gridItem nine">9</button>
+    <button onclick="numberFunc(this.innerText)" class="gridItem zero">0</button>
+    <button onclick="numberFunc(this.innerText)" class="gridItem dot">.</button>
+
+    <button onclick="operatorFunc(this.innerText)" class="gridItem plus">+</button>
+    <button onclick="operatorFunc(this.innerText)" class="gridItem minus">-</button>
+    <button onclick="operatorFunc(this.innerText)" class="gridItem divide">/</button>
+    <button onclick="operatorFunc(this.innerText)" class="gridItem multiply">*</button>
+
+    <button onclick="equalsTo()" class="gridItem equal">=</button>
+
+  </div>
+</body>
+
+</html>

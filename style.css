@@ -1,0 +1,105 @@
+body {
+  font-family: gotham;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: ivory;
+}
+
+.result {
+  border: 2px solid rgba(31, 31, 31,  0.2);
+  font-size: 50px;
+  border-radius: 4px;
+  text-align: right;
+  padding-right: 15px;
+  padding-top: 10px;
+}
+
+
+button {
+  background-color: lightblue;
+  border: 1px solid ivory;
+  border-radius: 4px;
+  font-family: gotham;
+  outline: none;
+}
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 140px 140px 140px 140px;
+  grid-template-rows: auto;
+}
+.gridItem {
+    height: 80px;
+}
+.result {
+  grid-column: 2 / span 3;
+  grid-row: 1;
+}
+
+
+.clear {
+  grid-row: 1;
+}
+
+.plus {
+  grid-column: 1;
+  grid-row: 2;
+  background-color: rgba(173, 216, 230, 0.7);
+}
+.minus {
+  grid-column: 1;
+  grid-row: 3;
+  background-color: rgba(173, 216, 230, 0.7);
+}
+.multiply {
+  grid-column: 1;
+  grid-row: 4;
+  background-color: rgba(173, 216, 230, 0.7);
+}
+.divide {
+  grid-column: 1;
+  grid-row: 5;
+  background-color: rgba(173, 216, 230, 0.7);
+}
+
+
+.one {
+  grid-column: 2;
+  grid-row: 4;
+}
+.two {
+  grid-column: 3;
+  grid-row: 4;
+}
+.three {
+  grid-column: 4;
+  grid-row: 4;
+}
+.four {
+  grid-column: 2;
+  grid-row: 3;
+}
+.five {
+  grid-column: 3;
+  grid-row: 3;
+}
+.six {
+  grid-column: 4;
+  grid-row: 3;
+}
+
+.seven {
+  grid-column: 2;
+  grid-row: 2;
+}
+.eight {
+  grid-column: 3;
+  grid-row: 2;
+}
+.nine {
+  grid-column: 4;
+  grid-row: 2;
+}
